@@ -1,13 +1,12 @@
+import Layout from './components/Layout';
 import './sass/main.scss'
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <h1>HI</h1>
-      </header>
-    </div>
+    <Layout></Layout>
   );
 }
+
+
 
 export default App;
