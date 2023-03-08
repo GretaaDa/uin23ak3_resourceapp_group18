@@ -4,16 +4,14 @@ export default function Layout(){
           <header>
             <h1>Ressursarkiv</h1>
           </header>
-          <nav>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JAVASCRIPT</li>
-                <li>REACT</li>
-                <li>SANITY AND HEADLESS CMS</li>
-            </ul>
+          <nav id="navBar">
+                <button>HTML</button>
+                <button>CSS</button>
+                <button>JAVASCRIPT</button>
+                <button>REACT</button>
+                <button>SANITY AND HEADLESS CMS</button>
           </nav>
-          <main>
+          <main id="mainInfo">
           </main>
         </div>
     )
