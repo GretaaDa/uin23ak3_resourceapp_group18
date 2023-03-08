@@ -49,32 +49,39 @@ header {
 
 
 #navBar {
-    display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
-    justify-content: space-between;
-
-    button {
-        border: 1px solid $lightGrey;
-        border-bottom: none;
-        padding: 0;
-        color: $grey;
-        font-size: 25px;
-        width: 100%;
-        max-width: 11rem;
-        padding: 5px 0px;
-
-        &:hover {
-            color: $grey;
-        }
-        .active {
-        background-color: $blue;
-        border: 1px solid $blue;
-        color: $white;
+	display: flex;
+	flex-direction: row;
+	margin-top: 2rem;
+	justify-content: space-between;
+    
+	button.active { color: $white;
+	background-color: $blue;
+	border: 1px solid $blue;
     }
-    }
+
 }
 
+button {
+	border: 1px solid $lightGrey;
+	border-bottom: none;
+	padding: 0;
+	color: $grey;
+	font-size: 25px;
+	width: 100%;
+	max-width: 11rem;
+	padding: 5px 0px;
+}
+    a {
+	text-decoration: none;
+    text-transform: uppercase;
+	color: $grey;
+}
+
+button.active {
+	a {
+		color: $white;
+	}
+}
 
 
 #mainInfo {
@@ -85,6 +92,7 @@ header {
 
     h2 {
         font-size: 2rem;
+        text-transform: uppercase;
     }
 
     p {
@@ -103,5 +111,7 @@ header {
 
     a {
         color: $blue;
+        text-transform: capitalize;
+        font-size: 130%;
     }
 }
